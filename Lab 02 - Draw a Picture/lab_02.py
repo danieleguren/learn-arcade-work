@@ -85,6 +85,19 @@ arcade.draw_triangle_filled(280, 50, 280, 70, 265, 60, (23, 56, 87))
 arcade.draw_triangle_filled(250, 50, 250, 70, 267, 60, (23, 56, 87))
 
 
+#pajaro
+arcade.draw_circle_filled(500, 350, 17, (203, 209, 31))
+arcade.draw_triangle_filled(487, 340, 487, 350, 470, 345, (217, 144, 17))
+arcade.draw_circle_filled(490, 354, 5, (250, 250, 250))
+arcade.draw_circle_filled(490, 354, 3, (0, 0, 0))
+arcade.draw_line(508, 350, 500, 350, (82, 76, 2),2)
+arcade.draw_line(508, 347, 500, 347, (82, 76, 2),2)
+arcade.draw_line(508, 344, 500, 344, (82, 76, 2),2)
+arcade.draw_line(492, 362, 500, 370, (82, 76, 2),2)
+
+
+
+
 arcade.finish_render()
 
 arcade.run()
